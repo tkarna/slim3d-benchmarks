@@ -17,7 +17,7 @@ pasteTags = ["paste"]
 mapFilename = "periodicMesh.txt"
 periodicity = (shiftOperation, cutTags, pasteTags, mapFilename)
 
-nPart = 2
+nPart = 96
 slimPre.dgpy.dgMeshPartition(mesh_file, nPart)
 mesh_file = mesh_file[:-4] + '_' + str(nPart)+'.msh'
 
