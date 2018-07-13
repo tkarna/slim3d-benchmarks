@@ -18,7 +18,7 @@ Transfinite Line{3} = 41;
 Transfinite Line{4} = 126;
 Transfinite Surface{1} = {1,2,3,4};
 
-Recombine Surface{1};
+// Recombine Surface{1};
 
 Physical Surface("Surface")={1};
 Physical Line("Wall") = {1,3};

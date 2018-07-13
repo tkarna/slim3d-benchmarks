@@ -19,7 +19,7 @@ Transfinite Line{3} = L/reso + 1;
 Transfinite Line{4} = l/reso + 1;
 Transfinite Surface{1} = {1,2,3,4};
 
-Recombine Surface{1};
+// Recombine Surface{1};
 
 Physical Surface("Surface")={1};
 Physical Line("Wall") = {1,3};
